@@ -1,7 +1,13 @@
 # ninja log v5
-354	467	1705402125924843915	Clion	c3a986d92cc0d609
+1	688	1705428804878944562	CMakeFiles/Clion.dir/VaildAnagram/Vaildanagrambestcase-bestcase.cpp.o	a305bc9c763cefcb
 2	354	1705402125812506947	CMakeFiles/Clion.dir/ValidAnagram.cpp.o	57b599e09fe61793
-6	74	1705402666299689619	build.ninja	fcef60f0a48e17d6
-1	62	1705402666299689619	build.ninja	f19ced8e5ebbf034
-0	553	1705402666857376270	CMakeFiles/Clion.dir/VaildAnagram/ValidAnagram.cpp.o	b9270108d038592a
-553	668	1705402666973266564	Clion	24e2a465267fd3d9
+1	509	1705403019671488091	CMakeFiles/Clion.dir/VaildAnagram/ValidAnagram.cpp.o	b9270108d038592a
+0	53	1705507662666801622	build.ninja	f19ced8e5ebbf034
+4	345	1705407735315897080	CMakeFiles/Clion.dir/VaildAnagram/ValidAnagram-worstcase.cpp.o	edd95cc4b2ab911e
+688	804	1705428804997884903	Clion	1597a94cb0f756bd
+2	339	1705517825350154218	CMakeFiles/Clion.dir/VaildAnagram/Vaildanagrambestcase-bestcase.cpp.o	a305bc9c763cefcb
+339	2465	1705517827474635488	Clion	1597a94cb0f756bd
+2	453	1705517846954691783	CMakeFiles/Clion.dir/VaildAnagram/Vaildanagrambestcase-bestcase.cpp.o	a305bc9c763cefcb
+453	487	1705517846989945309	Clion	1597a94cb0f756bd
+1	493	1705599104569224575	CMakeFiles/Clion.dir/VaildAnagram/Vaildanagrambestcase-bestcase.cpp.o	a305bc9c763cefcb
+493	616	1705599104691720824	Clion	1597a94cb0f756bd
