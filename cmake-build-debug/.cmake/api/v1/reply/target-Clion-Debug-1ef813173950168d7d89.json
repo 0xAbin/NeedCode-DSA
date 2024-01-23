@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TwoSum/Twosum-worstcase.cpp",
+			"path" : "TwoSum/Twosum-bestcase.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
