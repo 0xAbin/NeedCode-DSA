@@ -8,6 +8,7 @@ add_executable(Clion
 #        VaildAnagram/ValidAnagram-worstcase.cpp
         # VaildAnagram/Vaildanagrambestcase-bestcase.cpp
        # TwoSum/Twosum-worstcase.cpp
-        TwoSum/Twosum-bestcase.cpp
+       #  TwoSum/Twosum-bestcase.cpp
+        TwoSum/Twosum-optimzed.cpp
 
 )
