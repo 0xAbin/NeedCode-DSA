@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "GroupAnagram/groupworst.cpp",
+			"path" : "GroupAnagram/groupanamBest.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

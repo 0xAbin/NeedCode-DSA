@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/abinvinod/Developer/Cpp/NeedCode-DSA/cmake-build-de
 
 build cmake_object_order_depends_target_Clion: phony || CMakeFiles/Clion.dir
 
-build CMakeFiles/Clion.dir/GroupAnagram/groupworst.cpp.o: CXX_COMPILER__Clion_unscanned_Debug /Users/abinvinod/Developer/Cpp/NeedCode-DSA/GroupAnagram/groupworst.cpp || cmake_object_order_depends_target_Clion
-  DEP_FILE = CMakeFiles/Clion.dir/GroupAnagram/groupworst.cpp.o.d
+build CMakeFiles/Clion.dir/GroupAnagram/groupanamBest.cpp.o: CXX_COMPILER__Clion_unscanned_Debug /Users/abinvinod/Developer/Cpp/NeedCode-DSA/GroupAnagram/groupanamBest.cpp || cmake_object_order_depends_target_Clion
+  DEP_FILE = CMakeFiles/Clion.dir/GroupAnagram/groupanamBest.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Clion.dir
   OBJECT_FILE_DIR = CMakeFiles/Clion.dir/GroupAnagram
@@ -63,7 +63,7 @@ build CMakeFiles/Clion.dir/GroupAnagram/groupworst.cpp.o: CXX_COMPILER__Clion_un
 #############################################
 # Link the executable Clion
 
-build Clion: CXX_EXECUTABLE_LINKER__Clion_Debug CMakeFiles/Clion.dir/GroupAnagram/groupworst.cpp.o
+build Clion: CXX_EXECUTABLE_LINKER__Clion_Debug CMakeFiles/Clion.dir/GroupAnagram/groupanamBest.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/Clion.dir
   POST_BUILD = :
