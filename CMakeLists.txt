@@ -10,7 +10,7 @@ add_executable(Clion
        # TwoSum/Twosum-worstcase.cpp
        #  TwoSum/Twosum-bestcase.cpp
        # TwoSum/Twosum-optimzed.cpp
-       # GroupAnagram/groupworst.cpp
-        GroupAnagram/groupanamBest.cpp
+         GroupAnagram/groupworst.cpp
+        #GroupAnagram/groupanamBest.cpp
 
 )

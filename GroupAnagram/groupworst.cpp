@@ -1,32 +1,29 @@
-//
-// Created by ABIN VINOD on 04/02/24.
-//
-
 #include <iostream>
+#include <string>
 #include <vector>
-#include<unordered_map>
 #include <algorithm>
-using namespace  std;
+#include <map>
 
-int  main () {
+using namespace std;
 
-    string strs[6] = { "eat","tea","tan","ate","nat","bat"};
-    unordered_map<string, vector<string>> map;
 
-       for (string& s : strs) {
-           string key  = s ;
-           sort(key.begin(), key.end());
-           map[key].push_back(s);
-       }
 
-       for (auto& pair : map) {
-           for (string& s : pair.second) {
-               cout << s << " ";
-           }
-           cout << endl ;
-       }
+int main() {
+    vector<string> strs = {"eat","tea","tan","ate","nat","bat"};
 
-       return 0;
+    map<string, vector<string>>mp;
+
+    for (int i = 0; i < strs.size(); i++) {
+         string s = strs[i];
+         sort(s.begin(), s.end());
+        mp[s].push_back(strs[i]);
+        cout << s[i];
+    }
+
+    vector<vector <string>> ans(mp.size());
+    int index = 0;
+    for (auto x:mp) {
+
+    }
 
 }
-
