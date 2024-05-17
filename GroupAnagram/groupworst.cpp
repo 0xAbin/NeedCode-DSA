@@ -11,19 +11,28 @@ using namespace std;
 int main() {
     vector<string> strs = {"eat","tea","tan","ate","nat","bat"};
 
-    map<string, vector<string>>mp;
+     map<string, vector<string>> anagramGroups;
 
-    for (int i = 0; i < strs.size(); i++) {
-         string s = strs[i];
-         sort(s.begin(), s.end());
-        mp[s].push_back(strs[i]);
-        cout << s[i];
-    }
 
-    vector<vector <string>> ans(mp.size());
-    int index = 0;
-    for (auto x:mp) {
+     for (const string& str : strs){
+         string SortedStr = str;
+         sort(SortedStr.begin(),SortedStr.end());
+//         cout << SortedStr;
+          anagramGroups[SortedStr].push_back(str);
+     }
 
-    }
+
+
+     for (const auto& group : anagramGroups){
+         cout << "anam" << ":" ;
+         for (const string& words : group.second){
+             cout << words << " ";
+         }
+         cout << endl;
+     }
+
+
+
+
 
 }
