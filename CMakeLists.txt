@@ -15,5 +15,5 @@ add_executable(Clion
 
         #GroupAnagram/groupanamBest.cpp
        # Test/testasw.cpp
-        topKFreqelements/worstcase.cpp
+        leetcode/topKFreqelements/worstcase.cpp
 )
