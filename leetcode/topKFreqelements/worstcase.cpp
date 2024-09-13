@@ -13,7 +13,7 @@ using namespace  std;
 
 int main () {
     vector<int> k = {};
-    vector <int> nums = {1,1,1,2,2,3};
+    vector <int> nums = {1,1,1,2,2,3,3,3,3,4};
     unordered_map<int, int > count;
 
     std::cout << "nums:" " " "[";
@@ -39,18 +39,19 @@ int main () {
         cout << pair.first << ": " << pair.second << endl;
     }
 
-    
+    for(const auto&pair : count) {
+        if (pair.second > 1){
+            k.push_back(pair.first);
+        }
+    }
 
-//    k.push_back(1);
-//    k.push_back(2);
-//
-//    std::cout << "Output:" " " "[";
-//    for (int i = 0; i < k.size(); i++ ){
-//        std::cout << k[i];
-//        if (i < k.size() - 1) {
-//            std::cout << ",";
-//        }
-//    }
-//    std::cout << "]" << std::endl;
+    std::cout << "Output:" " " "[";
+    for (int i = 0; i < k.size(); i++ ){
+        std::cout << k[i];
+        if (i < k.size() - 1) {
+            std::cout << ",";
+        }
+    }
+    std::cout << "]" << std::endl;
     return 0;
 }
