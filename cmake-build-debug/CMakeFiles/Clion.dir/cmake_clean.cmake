@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o"
-  "CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o.d"
+  "CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o"
+  "CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o.d"
   "Clion"
   "Clion.pdb"
 )

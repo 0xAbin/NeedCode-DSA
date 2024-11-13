@@ -129,29 +129,29 @@ Clion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/build
 .PHONY : Clion/fast
 
-quant/HFT/marketmaker.o: quant/HFT/marketmaker.cpp.o
-.PHONY : quant/HFT/marketmaker.o
+leetcode/EncodeDecode/encodedecode.o: leetcode/EncodeDecode/encodedecode.cpp.o
+.PHONY : leetcode/EncodeDecode/encodedecode.o
 
 # target to build an object file
-quant/HFT/marketmaker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o
-.PHONY : quant/HFT/marketmaker.cpp.o
+leetcode/EncodeDecode/encodedecode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o
+.PHONY : leetcode/EncodeDecode/encodedecode.cpp.o
 
-quant/HFT/marketmaker.i: quant/HFT/marketmaker.cpp.i
-.PHONY : quant/HFT/marketmaker.i
+leetcode/EncodeDecode/encodedecode.i: leetcode/EncodeDecode/encodedecode.cpp.i
+.PHONY : leetcode/EncodeDecode/encodedecode.i
 
 # target to preprocess a source file
-quant/HFT/marketmaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.i
-.PHONY : quant/HFT/marketmaker.cpp.i
+leetcode/EncodeDecode/encodedecode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.i
+.PHONY : leetcode/EncodeDecode/encodedecode.cpp.i
 
-quant/HFT/marketmaker.s: quant/HFT/marketmaker.cpp.s
-.PHONY : quant/HFT/marketmaker.s
+leetcode/EncodeDecode/encodedecode.s: leetcode/EncodeDecode/encodedecode.cpp.s
+.PHONY : leetcode/EncodeDecode/encodedecode.s
 
 # target to generate assembly for a file
-quant/HFT/marketmaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.s
-.PHONY : quant/HFT/marketmaker.cpp.s
+leetcode/EncodeDecode/encodedecode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.s
+.PHONY : leetcode/EncodeDecode/encodedecode.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Clion"
-	@echo "... quant/HFT/marketmaker.o"
-	@echo "... quant/HFT/marketmaker.i"
-	@echo "... quant/HFT/marketmaker.s"
+	@echo "... leetcode/EncodeDecode/encodedecode.o"
+	@echo "... leetcode/EncodeDecode/encodedecode.i"
+	@echo "... leetcode/EncodeDecode/encodedecode.s"
 .PHONY : help
 
 
