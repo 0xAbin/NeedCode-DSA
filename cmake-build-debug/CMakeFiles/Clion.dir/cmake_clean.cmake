@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion.dir/leetcode/topKFreqelements/worstcase.cpp.o"
-  "CMakeFiles/Clion.dir/leetcode/topKFreqelements/worstcase.cpp.o.d"
+  "CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o"
+  "CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o.d"
   "Clion"
   "Clion.pdb"
 )

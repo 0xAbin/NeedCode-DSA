@@ -45,7 +45,7 @@ int main () {
         }
     }
 
-    std::cout << "Output:" " " "[";
+    std::cout << "Output :" " " "[";
     for (int i = 0; i < k.size(); i++ ){
         std::cout << k[i];
         if (i < k.size() - 1) {

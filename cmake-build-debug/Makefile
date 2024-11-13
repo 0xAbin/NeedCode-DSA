@@ -129,29 +129,29 @@ Clion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/build
 .PHONY : Clion/fast
 
-leetcode/topKFreqelements/worstcase.o: leetcode/topKFreqelements/worstcase.cpp.o
-.PHONY : leetcode/topKFreqelements/worstcase.o
+quant/HFT/marketmaker.o: quant/HFT/marketmaker.cpp.o
+.PHONY : quant/HFT/marketmaker.o
 
 # target to build an object file
-leetcode/topKFreqelements/worstcase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/topKFreqelements/worstcase.cpp.o
-.PHONY : leetcode/topKFreqelements/worstcase.cpp.o
+quant/HFT/marketmaker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.o
+.PHONY : quant/HFT/marketmaker.cpp.o
 
-leetcode/topKFreqelements/worstcase.i: leetcode/topKFreqelements/worstcase.cpp.i
-.PHONY : leetcode/topKFreqelements/worstcase.i
+quant/HFT/marketmaker.i: quant/HFT/marketmaker.cpp.i
+.PHONY : quant/HFT/marketmaker.i
 
 # target to preprocess a source file
-leetcode/topKFreqelements/worstcase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/topKFreqelements/worstcase.cpp.i
-.PHONY : leetcode/topKFreqelements/worstcase.cpp.i
+quant/HFT/marketmaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.i
+.PHONY : quant/HFT/marketmaker.cpp.i
 
-leetcode/topKFreqelements/worstcase.s: leetcode/topKFreqelements/worstcase.cpp.s
-.PHONY : leetcode/topKFreqelements/worstcase.s
+quant/HFT/marketmaker.s: quant/HFT/marketmaker.cpp.s
+.PHONY : quant/HFT/marketmaker.s
 
 # target to generate assembly for a file
-leetcode/topKFreqelements/worstcase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/topKFreqelements/worstcase.cpp.s
-.PHONY : leetcode/topKFreqelements/worstcase.cpp.s
+quant/HFT/marketmaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/quant/HFT/marketmaker.cpp.s
+.PHONY : quant/HFT/marketmaker.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Clion"
-	@echo "... leetcode/topKFreqelements/worstcase.o"
-	@echo "... leetcode/topKFreqelements/worstcase.i"
-	@echo "... leetcode/topKFreqelements/worstcase.s"
+	@echo "... quant/HFT/marketmaker.o"
+	@echo "... quant/HFT/marketmaker.i"
+	@echo "... quant/HFT/marketmaker.s"
 .PHONY : help
 
 
