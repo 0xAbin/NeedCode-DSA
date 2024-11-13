@@ -14,9 +14,13 @@ add_executable(Clion
         #GroupAnagram/groupanamBest.cpp
         # Test/testasw.cpp
        # leetcode/topKFreqelements/worstcase.cpp
-#         leetcode/EncodeDecode/encodedecode.cpp
+         leetcode/EncodeDecode/encodedecode.cpp
+
+
+
+
 
         #                                                               "--Quant---"
-        quant/HFT/marketmaker.cpp
+#        quant/HFT/marketmaker.cpp
 
 )
