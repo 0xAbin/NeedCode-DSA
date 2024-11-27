@@ -13,15 +13,14 @@ std::string encode(const std::vector<std::string> &strs) {
     for (const auto &str : strs) {
         encoded += std::to_string(str.size()) + "#" + str;
     }
-    std::cout<< encoded;
     return encoded;
 }
 
 
 //function to decode
-//std::vector<std::string> decode(const std::string &str ) {
-//
-//}
+std::vector<std::string> decode(const std::string& str) {
+
+}
 
 int main () {
     // C style has issue later
@@ -34,12 +33,18 @@ int main () {
     std::cout << "-----------" << std::endl;
 
     std::cout << "encoding the string" << std::endl;
-
-    std::cout << "encoding the string" << std::endl;
-
     std::string encoded = encode(strs);
-    std::cout << encoded << std::endl;
 
+    std::cout << "Encoded: " << encoded << std::endl;
+
+    std::cout << "decoding the string" << std::endl;
+    std::vector<std::string> decoded = decode(encoded);
+
+    std::cout << "Decoded: [";
+    for (const auto& s : decoded) {
+        std::cout << " " << s << " ";
+    }
+    std::cout << "]" << std::endl;
 
 
     return 0;
