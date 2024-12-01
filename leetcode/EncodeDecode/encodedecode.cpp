@@ -16,10 +16,20 @@ std::string encode(const std::vector<std::string> &strs) {
     return encoded;
 }
 
-
 //function to decode
 std::vector<std::string> decode(const std::string& str) {
-
+    std::vector<std::string> decoded;
+    int i = 0;
+    while(i <= str.size()) {
+        int j = i;
+        while (j < str.size() && str[j] != '#') {
+            j++;
+         }
+        int length = std::stoi(str.substr(i ,j - 1));
+        decoded.push_back(str.substr(j + 1, length));
+        i = j + length + 1;
+    }
+    return decoded;
 }
 
 int main () {
@@ -32,12 +42,10 @@ int main () {
     std::cout << "]" << std::endl;
     std::cout << "-----------" << std::endl;
 
-    std::cout << "encoding the string" << std::endl;
     std::string encoded = encode(strs);
 
     std::cout << "Encoded: " << encoded << std::endl;
 
-    std::cout << "decoding the string" << std::endl;
     std::vector<std::string> decoded = decode(encoded);
 
     std::cout << "Decoded: [";
