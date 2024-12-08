@@ -20,14 +20,14 @@ std::string encode(const std::vector<std::string> &strs) {
 std::vector<std::string> decode(const std::string& str) {
     std::vector<std::string> decoded;
     int i = 0;
-    while(i <= str.size()) {
+    while(i < str.size()) {
         int j = i;
         while (j < str.size() && str[j] != '#') {
             j++;
          }
-        int length = std::stoi(str.substr(i ,j - 1));
+        int length = std::stoi(str.substr(i, j - i));
         decoded.push_back(str.substr(j + 1, length));
-        i = j + length + 1;
+        i = j + 1 + length;
     }
     return decoded;
 }
