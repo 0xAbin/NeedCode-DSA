@@ -69,28 +69,28 @@ include CMakeFiles/Clion.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Clion.dir/flags.make
 
-CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o: CMakeFiles/Clion.dir/flags.make
-CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o: /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/EncodeDecode/encodedecode.cpp
-CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o: CMakeFiles/Clion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/abinvinod/Developer/Cpp/cp-dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o -MF CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o.d -o CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o -c /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/EncodeDecode/encodedecode.cpp
+CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o: CMakeFiles/Clion.dir/flags.make
+CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o: /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp
+CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o: CMakeFiles/Clion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/abinvinod/Developer/Cpp/cp-dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o -MF CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o.d -o CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o -c /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp
 
-CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/EncodeDecode/encodedecode.cpp > CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.i
+CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp > CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i
 
-CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/EncodeDecode/encodedecode.cpp -o CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.s
+CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/abinvinod/Developer/Cpp/cp-dsa/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp -o CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s
 
 # Object files for target Clion
 Clion_OBJECTS = \
-"CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o"
+"CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o"
 
 # External object files for target Clion
 Clion_EXTERNAL_OBJECTS =
 
-Clion: CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o
+Clion: CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o
 Clion: CMakeFiles/Clion.dir/build.make
 Clion: CMakeFiles/Clion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/abinvinod/Developer/Cpp/cp-dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Clion"

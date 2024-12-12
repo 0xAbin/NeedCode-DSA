@@ -129,29 +129,29 @@ Clion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/build
 .PHONY : Clion/fast
 
-leetcode/EncodeDecode/encodedecode.o: leetcode/EncodeDecode/encodedecode.cpp.o
-.PHONY : leetcode/EncodeDecode/encodedecode.o
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.o: leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.o
 
 # target to build an object file
-leetcode/EncodeDecode/encodedecode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.o
-.PHONY : leetcode/EncodeDecode/encodedecode.cpp.o
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o
 
-leetcode/EncodeDecode/encodedecode.i: leetcode/EncodeDecode/encodedecode.cpp.i
-.PHONY : leetcode/EncodeDecode/encodedecode.i
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.i: leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.i
 
 # target to preprocess a source file
-leetcode/EncodeDecode/encodedecode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.i
-.PHONY : leetcode/EncodeDecode/encodedecode.cpp.i
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.i
 
-leetcode/EncodeDecode/encodedecode.s: leetcode/EncodeDecode/encodedecode.cpp.s
-.PHONY : leetcode/EncodeDecode/encodedecode.s
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.s: leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.s
 
 # target to generate assembly for a file
-leetcode/EncodeDecode/encodedecode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/EncodeDecode/encodedecode.cpp.s
-.PHONY : leetcode/EncodeDecode/encodedecode.cpp.s
+leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s
+.PHONY : leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Clion"
-	@echo "... leetcode/EncodeDecode/encodedecode.o"
-	@echo "... leetcode/EncodeDecode/encodedecode.i"
-	@echo "... leetcode/EncodeDecode/encodedecode.s"
+	@echo "... leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.o"
+	@echo "... leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.i"
+	@echo "... leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.s"
 .PHONY : help
 
 
